@@ -1,5 +1,5 @@
-import { NotificationDTO } from "../dtos/notification.dto";
-import { mailerQueue } from "../queues/mailer.queue";
+import { NotificationDTO } from "@/dtos/notification.dto";
+import { mailerQueue } from "@/queues/mailer.queue";
 
 export const MAILER_PAYLOAD="payload:mail";
 
